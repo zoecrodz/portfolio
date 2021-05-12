@@ -10,7 +10,7 @@ function App() {
   return (
     <div className={style.container}>
       <Navbar />
-      <Welcome />
+      <Welcome id={'home'}/>
       <AboutMe />
       <Skills />
       <Projects />

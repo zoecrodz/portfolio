@@ -1,35 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 
-.container{
-    /* background-color: #ffffb5; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.container {
+  /* background-color: #ffffb5; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 70vh;
+  padding: 15px;
+}
+
+.hard {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.icons {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px 0px 30px;
+  height: 100%;
+  box-shadow: 5px 5px 10px 0px rgba(89, 84, 84, 0.836);
+}
+
+.container img {
+  width: 15%;
+}
+
+.child:hover {
+  /* box-shadow: 5px 5px 10px 0px rgb(255, 255, 255); */
+  padding-bottom: 15px;
+}
+
+.child {
+  transition: all 0.2s ease-out 0s;
+}
+
+@media screen and (max-width: 750px) {
+  .container img {
+    width: 200px;
+    margin-bottom: 30px;
+    background-color: lavenderblush;
+  }
+  .icons {
+    height: auto;
+    width: 90%;
+  }
+  .container {
+    padding: 40px 0px 0px 0px;
+    height: 700px;
+    width: 100%;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 50vh;
-    padding: 15px
-}
-
-.hard{
-width: 100%;
-height: 40%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
-}
-
-.icons{
-background-color: black;
-border-radius: 95px;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-padding: 0px 8px 0px 30px;
-}
-
-.hard img{
-    width: 15%;
+  }
+  .hard {
+    height: 100%;
+  }
 }

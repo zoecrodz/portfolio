@@ -6,18 +6,18 @@ import style from "../styles/skills.module.css"
 const Skills = () => {
     return (
         <div id={'skills'}className={style.container}>
-            <div className={style.hard}>
             <img src={process.env.PUBLIC_URL + '/sheets.png'}></img>
+            <div className={style.hard}>
                 <div className={style.icons}>
-            <SiJavascript color={"white"} size={80}/>
-            <DiCss3 color={"white"} size={100}/>
-            <DiHtml5 color={"white"} size={100}/>
-            <DiNodejs color={"white"} size={160}/>
-            <DiMongodb color={"white"} size={100}/>
-            <DiPostgresql color={"white"} size={130}/>
-            <DiReact color={"white"} size={130}/>
-            <SiRedux color={"white"} size={90}/>
-            <DiGithubBadge color={"white"} size={120}/>
+            <SiJavascript className={style.child} color={"black"} size={90}/>
+            <DiCss3 className={style.child}color={"black"} size={110}/>
+            <DiHtml5 className={style.child}color={"black"} size={110}/>
+            <DiNodejs className={style.child}color={"black"} size={170}/>
+            <DiMongodb className={style.child}color={"black"} size={110}/>
+            <DiPostgresql className={style.child}color={"black"} size={140}/>
+            <DiReact className={style.child}color={"black"} size={140}/>
+            <SiRedux className={style.child}color={"black"} size={100}/>
+            <DiGithubBadge className={style.child}color={"black"} size={130}/>
                 </div>
             </div>
         </div>

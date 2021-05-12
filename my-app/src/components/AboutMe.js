@@ -7,7 +7,12 @@ const AboutMe = () => {
              <img src={process.env.PUBLIC_URL + '/plants2.png'}></img>
              <div>
 
-            <span>Al pie de la penúltima torre fue que el poeta (que estaba como ajeno a los espectáculos que eran maravilla de todos) recitó la breve composición que hoy vinculamos indisolublemente a su nombre y que, según repiten los historiadores más elegantes, le deparó la inmortalidad y la muerte. El texto se ha perdido; hay quien entiende que constaba de un verso; otros, de una sola palabra. Lo cierto, lo increíble, es que en el poema estaba entero y minucioso el palacio enorme, con cada ilustre porcelana y cada dibujo en cada porcelana y las penumbras y las luces de los crepúsculos y cada instante desdichado o feliz de las gloriosas dinastías de mortales, de dioses y de dragones que habitaron en él desde el interminable pasado. Todos callaron, pero el Emperador, exclamó: ¡Me has arrebatado el palacio! y la espada de hierro del verdugo segó la vida del poeta.</span>
+            <span>Entrar al mundo de la tecnología me hizo dar un giro muy importante en mi vida. Comencé estudiando en un curso de Introducción al Frontend y me encontré con muchas cosas desconocidas para mí, como la frustración al no poder resolver algo, el trabajo en equipo, pedir ayuda, y aprender cosas por mis propios medios usando sólo Internet. Esto es lo que me hizo decidir que quiero dedicarme al desarrollo web, todo lo humano y creativo que trae la tecnología.</span>
+            <br />
+            <span>Mientras hago trabajos freelance busco mi primer oportunidad de trabajo full-time como desarrolladora, que es lo que me apasiona tanto y donde me veo para siempre. 
+                <br/>
+                Mi espacio ideal del que quiero ser parte sería un lugar que apuesta por el crecimiento de sus programadores y donde el trabajo en equipo sea la clave de la productividad.
+            </span>
              </div>
         </div>
     );

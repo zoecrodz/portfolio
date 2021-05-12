@@ -10,7 +10,7 @@ const Welcome = () => {
         <br />
         <h1 style={{marginTop: '-5px'}}>Web JS Developer</h1>
       </div>
-      <img src={process.env.PUBLIC_URL + "/flowers.png"}></img>
+      <img src={process.env.PUBLIC_URL + "/flowerss.png"}></img>
     </div>
   );
 };

@@ -12,21 +12,42 @@
 
 .container div{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
 .container span {
-    padding: 30px 15px 30px 0px;
+    padding: 30px 15px 30px 15px;
     text-align: end;
     font-size: 1.5em;
-    background-color: rgba(255, 255, 255, 0.404);
+    background-color: rgba(255, 255, 255, 0.89);
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     width: 80%;
+    text-align: justify;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.301);
 }
 
 .container img {
     margin-left: 5%;
+}
+
+@media screen and (max-width: 750px) {
+    .container img{
+        height: 400px;
+        width: 200px;
+       
+    }
+    .container{
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items:center;
+    }
+    .container span {
+        width: 95%;
+
+    }
 }

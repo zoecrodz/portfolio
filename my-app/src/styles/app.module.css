@@ -43,3 +43,9 @@ html{
 textarea{
     font-family: 'Cutive Mono', monospace;
 }
+
+@media screen and (max-width: 750px) {
+   .container{
+       max-width: 100%;
+   } 
+}

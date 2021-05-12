@@ -1,0 +1,13 @@
+.container {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* background-color: #F3B0C3; */
+    color: black;
+    font-size: 200%;
+}
+
+
+

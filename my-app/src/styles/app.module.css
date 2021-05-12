@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Prata&display=swap');
+
+
+.container {
+    /* height: 100vh; */
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(#fde4eb, #9198e5);
+    color: black;
+    /* background-color: #0D221E; */
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 50;
+
+}
+
+span {
+    font-family: 'Cutive Mono', monospace;
+}
+
+label{
+    font-family: 'Cutive Mono', monospace;
+}
+
+input{
+    font-family: 'Cutive Mono', monospace;
+}
+
+b{
+    font-family: 'Cutive Mono', monospace;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+textarea{
+    font-family: 'Cutive Mono', monospace;
+}

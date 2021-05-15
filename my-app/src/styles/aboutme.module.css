@@ -12,7 +12,7 @@
 
 .container div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     align-items: center;
     flex-direction: column;
@@ -37,17 +37,19 @@
 
 @media screen and (max-width: 750px) {
     .container img{
-        height: 400px;
-        width: 200px;
-       
+        display: none;  
     }
     .container{
         flex-direction: column;
         justify-content:flex-end;
         align-items:center;
+        /* background-color: antiquewhite; */
+        width: 100%;
+        /* min-width: 500px; */
     }
     .container span {
-        width: 95%;
-
+        width: 80%;
+        font-size: 18px;
+        text-align: center;
     }
 }

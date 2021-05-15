@@ -3,11 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Prata&display=swap');
 
 
-.container {
-    /* height: 100vh; */
-    width: 100%;
-}
-
 body{
     background: linear-gradient(#fde4eb, #9198e5);
     color: black;
@@ -45,7 +40,7 @@ textarea{
 }
 
 @media screen and (max-width: 750px) {
-   .container{
+   /* .container{
        max-width: 100%;
-   } 
+   }  */
 }

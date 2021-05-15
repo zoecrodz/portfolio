@@ -19,7 +19,7 @@ const Projects = () => {
             <span>Ecommerce para bares que posibilita la visualización del menú y el pago del pedido</span>
           </div>
           <div onClick={()=> {
-            window.open('https://github.com/zoecrodz/birrapp', '_blanck')
+            window.open('https://github.com/zoecrodz/medussa', '_blanck')
           }}className={style.child}>
             <img src={process.env.PUBLIC_URL + "/medussa.jpg"}></img>
             <span>Ecommerce para emprendimiento de textiles integrado a MercadoPago</span>

@@ -32,7 +32,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      {/* <img src={process.env.PUBLIC_URL + "/plants3.png"}></img> */}
     </div>
   );
 };

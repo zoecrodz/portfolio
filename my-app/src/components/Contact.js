@@ -11,7 +11,7 @@ const Contact = () => {
         <div className={style.modal}>
           <h1>Hablemos</h1>
           <form
-            action="https://formspree.io/zoecrodz@gmail.com"
+            action="https://formspree.io/f/xzbyegwn"
             method="POST"
             className={style.form}
           >

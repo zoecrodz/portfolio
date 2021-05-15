@@ -3,11 +3,15 @@ import {DiNodejs, DiPostgresql, DiMongodb, DiReact, DiCss3, DiHtml5, DiGithubBad
 import {SiRedux, SiJavascript} from "react-icons/si"
 import style from "../styles/skills.module.css"
 
-const Skills = () => {
+const Skills = ({english}) => {
     return (
         <div id={'skills'}className={style.container}>
             <img className={style.img} src={process.env.PUBLIC_URL + '/sheets.png'}></img>
-            <h1>Skills</h1>
+            {english ? (
+                <h1>Skills</h1>
+            ) : (
+                <h1>Habilidades</h1>
+            )}
             <div className={style.hard}>
                 <div className={style.icons}>
             <SiJavascript className={style.child} color={"black"} size={90}/>

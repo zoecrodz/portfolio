@@ -4,25 +4,40 @@ import { MdEmail } from "react-icons/md";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-const Contact = () => {
+const Contact = ({ english }) => {
   return (
     <>
       <div id={"contact"} className={style.container}>
         <div className={style.modal}>
-          <h1>Hablemos</h1>
+          {english ? <h1>Contact</h1> : <h1>Hablemos</h1>}
           <form
             action="https://formspree.io/f/xzbyegwn"
             method="POST"
             className={style.form}
           >
-            <label>Nombre: </label>
-            <input type="text"></input>
-            <label>Correo: </label>
-            <input type="text"></input>
-            <label>Mensaje: </label>
-            <textarea></textarea>
-            <br />
-            <input className={style.button} type="submit"></input>
+            {english ? (
+              <>
+                <label>Name: </label>
+                <input type="text"></input>
+                <label>Email: </label>
+                <input type="text"></input>
+                <label>Message: </label>
+                <textarea></textarea>
+                <br />
+                <input value="Submit" className={style.button} type="submit"></input>
+              </>
+            ) : (
+              <>
+                <label>Nombre: </label>
+                <input type="text"></input>
+                <label>Correo: </label>
+                <input type="text"></input>
+                <label>Mensaje: </label>
+                <textarea></textarea>
+                <br />
+                <input value="Enviar" className={style.button} type="submit"></input>
+              </>
+            )}
             <div className={style.mediaMobile}>
               <div>
                 <MdEmail size={30} />

@@ -61,6 +61,7 @@ textarea {
   height: 50px;
   color: white;
   transition: all 0.2s ease-out 0s;
+  cursor: pointer;
 }
 
 .media {

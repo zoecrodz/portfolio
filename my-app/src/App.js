@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Language from './components/Language'
 import { useState } from 'react'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className={style.container}>
       <Navbar english={english}/>
+      <Language english={english} setEnglish={setEnglish}/>
       <Welcome english={english}/>
       <AboutMe english={english}/>
       <Skills english={english}/>

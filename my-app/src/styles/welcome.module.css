@@ -8,6 +8,10 @@
   font-size: 200%;
 }
 
+.container span{
+  font-size: 40px;
+}
+
 @media screen and (max-width: 750px) {
   .container img {
     max-height: 500px;
@@ -16,7 +20,7 @@
   }
 
   .container span{
-    font-size: 1em;
+    font-size: 30px;
   }
 
   .container h1{

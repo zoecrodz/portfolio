@@ -33,7 +33,7 @@ const Projects = ({english}) => {
             )}
           </div>
           <div onClick={()=> {
-            window.open('https://github.com/zoecrodz/medussa', '_blanck')
+            window.open('https://github.com/zoecrodz/medussaPublic', '_blanck')
           }}className={style.child}>
             <img src={process.env.PUBLIC_URL + "/medussa.jpg"}></img>
             {english ? (

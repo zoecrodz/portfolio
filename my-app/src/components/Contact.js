@@ -18,22 +18,22 @@ const Contact = ({ english }) => {
             {english ? (
               <>
                 <label>Name: </label>
-                <input type="text"></input>
+                <input name="name" required type="text"></input>
                 <label>Email: </label>
-                <input type="text"></input>
+                <input name="email" required type="email"></input>
                 <label>Message: </label>
-                <textarea></textarea>
+                <textarea name="message"required></textarea>
                 <br />
                 <input value="Submit" className={style.button} type="submit"></input>
               </>
             ) : (
               <>
                 <label>Nombre: </label>
-                <input type="text"></input>
+                <input name="name" required type="text"></input>
                 <label>Correo: </label>
-                <input type="text"></input>
+                <input name="email" required type="email"></input>
                 <label>Mensaje: </label>
-                <textarea></textarea>
+                <textarea name="message"required></textarea>
                 <br />
                 <input value="Enviar" className={style.button} type="submit"></input>
               </>

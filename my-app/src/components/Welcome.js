@@ -7,13 +7,13 @@ const Welcome = ({english}) => {
       <div>
         {english ? (
           <>
-          <span style={{fontSize:'40px'}}>Hey! I'm Zoe</span>
+          <span>Hey! I'm Zoe,</span>
           <br />
           <h1 style={{marginTop: '-5px'}}>Web JS Developer</h1>
           </>
         ) : (
           <>
-          <span style={{fontSize:'40px'}}>Hola! Soy Zoe</span>
+          <span>Hola! Soy Zoe,</span>
           <br />
           <h1 style={{marginTop: '-5px'}}>Desarrolladora Web JS</h1>
           </>
